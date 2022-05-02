@@ -71,6 +71,11 @@ Do you have symptoms?: |: yes.
 Diagnosis = 'Very likely to be infected'.
 ```
 
+**Note**: For the purpose of this project, knowledge of symptom types are
+assumed. This is due to the nature of the pandemic and widespread
+media coverage. For a comprehensive list of symptoms, see `/doc/` for
+the complete list.
+
 ## Contributing
 
 I have defined some basic contributing guidelines in the `contributing.md`
