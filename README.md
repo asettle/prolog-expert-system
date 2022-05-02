@@ -49,12 +49,14 @@ Provided the output is `true`, you will now be able to run the expert system.
 To run the code, change directory to `/src/` on your prolog terminal and execute
 the following:
 
-1. ```prolog
+1.
+```prolog
 ?- [diagnosis].
 true.
 ```
 
-2. ```prolog
+2.
+```prolog
 ?- diagnose(Diagnosis).
 ```
 
