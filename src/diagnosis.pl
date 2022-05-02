@@ -1,7 +1,7 @@
 /* E is Exposure */
 /* SY is symptoms */
 
-diagnosis(D) :- write('Do you know if you been exposed to the virus in the last 14 days?: '),read(E),write('Do you have symptoms?: '),read(SY), diagnosis(D,SY,E).
+diagnose(D) :- write('Do you know if you been exposed to the virus in the last 14 days?: '),read(E),write('Do you have symptoms?: '),read(SY), diagnosis(D,SY,E).
 
 %Known_Exposure
 diagnosis('Unlikely to be infected',SY,E):- SY = 'no' ,(E= 'no'),!.
